@@ -11,3 +11,11 @@ function getUserInfo(user: User): string {
 }
 
 getUserInfo({ name: "Ram", age: 30, role: "admin" });
+
+interface Admin extends User {
+    admin : string;
+}
+
+function getAdminInfo(admin: Admin): string {
+    return `Name: ${admin.name}, Age: ${admin.age}, Role: ${admin.role}, Admin: ${admin.admin}`;
+}
