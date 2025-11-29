@@ -12,7 +12,6 @@ let arr1 = [1, 2, 3];
 // TUPLE
 let arr2 = [1, "ram"];
 // let arr3 : [number,string] = ["ram",1] wrong
-
 //enumeration
 var Userrole;
 (function (Userrole) {
@@ -30,4 +29,29 @@ var Statuscode;
 Userrole.ADMIN;
 Userrole.GUEST;
 Userrole.SUPERADMIN;
+// Any, Unknown, Never, Void, Null, Undefined
+let x = 10;
+x = "ram";
+x = true;
+let y;
+y = 12;
+// y="ram"  wrong
+let z;
+z = 12;
+z = "ram";
+z = true;
+function test() {
+    console.log("this is a test function");
+}
+function test2() {
+    return 12;
+}
+let a3;
+a3 = ["ram"];
+a3 = [null];
+// function demo(): never{
+//     console.log("this is demo function");
+// }
+// demo();
+// console.log(a);
 //# sourceMappingURL=app.js.map

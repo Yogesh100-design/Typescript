@@ -36,3 +36,38 @@ Userrole.ADMIN
 Userrole.GUEST
 Userrole.SUPERADMIN 
 
+
+// Any, Unknown, Never, Void, Null, Undefined
+
+let x: any = 10;
+x = "ram"
+x = true    
+
+let y: number ;
+y=12;
+// y="ram"  wrong
+
+let z: unknown;
+z=12;
+z="ram"
+z=true      
+
+function test(): void {
+    console.log("this is a test function");
+}
+
+function test2(): number {
+    return 12;
+}
+
+let a3 : [string | null];
+
+a3 = ["ram"];
+a3 = [null];    
+
+// function demo(): never{
+//     console.log("this is demo function");
+// }
+
+// demo();
+// console.log(a);
